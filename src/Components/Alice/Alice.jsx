@@ -5,6 +5,7 @@ const Alice = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
+            <h1>Holi a todas!</h1>
         </Fragment>
      );
 }
