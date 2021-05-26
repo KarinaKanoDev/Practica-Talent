@@ -6,6 +6,7 @@ const Lili = () => {
         <Fragment>
             <BotonHomePage />
             <h1>Hola soy Lili</h1>
+            <p>Soy diseñadora Integral, tengo un perro <br></br>salchicha que se llama Dalì</p>
         </Fragment>
      );
 }
