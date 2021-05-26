@@ -5,6 +5,7 @@ const Karina = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
+            <h2>Hola, soy Karina</h2>
         </Fragment>
      );
 }
