@@ -1,0 +1,31 @@
+button{
+    width: 90px;
+    height: 60px;
+    color: white;
+    background-color: crimson;
+    border-radius: 17px;
+    border-style: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 190px 50px 190px;
+}
+/*Instructions CSS*/
+.instructionsComp{
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    padding: 0px 140px 0px 140px;
+    font-size: 20px;
+}
+
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style-type: square;
+}
