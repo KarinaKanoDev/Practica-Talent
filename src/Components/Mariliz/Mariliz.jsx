@@ -5,6 +5,7 @@ const Mariliz = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
+            <h1> Hola mundo! </h1>
         </Fragment>
      );
 }

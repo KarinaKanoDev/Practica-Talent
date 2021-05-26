@@ -5,6 +5,7 @@ const Andre = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
+            <h1>Este es un mensaje de prueba para usar hagit que nos permite hacer git add, commit y push</h1>
         </Fragment>
      );
 }
