@@ -5,6 +5,8 @@ const Lili = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
+            <h1>Hola soy Lili</h1>
+            <p>Soy diseñadora Integral, tengo un perro salchicha que se llama Dalì</p>
         </Fragment>
      );
 }
