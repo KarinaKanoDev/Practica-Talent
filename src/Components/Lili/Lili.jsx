@@ -5,7 +5,6 @@ const Lili = () => {
     return ( 
         <Fragment>
             <BotonHomePage />
-            <h1>Hola soy Lili</h1>
         </Fragment>
      );
 }
