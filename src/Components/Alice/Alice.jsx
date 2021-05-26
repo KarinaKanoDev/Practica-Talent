@@ -5,7 +5,7 @@ import BotonHomePage from '../GeneralComponents/BotonHomePage';
 
 const Alice = () => {
    
-        const [minutos, setMinutos] = useState([]);
+  const [minutos, setMinutos] = useState([]);
   const [paises, setPaises] = useState([]);
 
   const data = {
@@ -26,13 +26,15 @@ const Alice = () => {
   }
 
   const peticionApi = async () =>{
-    await axios.get('http://localhost:5000/product')
+    await axios.get('https://rhisco-89b36-default-rtdb.firebaseio.com/product.json')
     .then(response =>{
       var respuesta = response.data;
+      console.log(respuesta)
       var auxMinutos = [], auxPaises = [];
-      respuesta.map(elemento =>{
+      respuesta.map((elemento) => {
         auxMinutos.push(elemento.minutos);
         auxPaises.push(elemento.paises);
+        
       })
       setMinutos(auxMinutos);
       setPaises(auxPaises);
