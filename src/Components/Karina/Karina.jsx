@@ -7,6 +7,7 @@ const Karina = () => {
             <BotonHomePage />
             <h2>Hola, soy Karina</h2>
             <p>Este es el segundo pull request de prueba</p>
+            <p>Hola, este es el tercer commit</p>
         </Fragment>
      );
 }
