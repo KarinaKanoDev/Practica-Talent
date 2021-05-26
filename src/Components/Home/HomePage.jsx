@@ -24,7 +24,7 @@ const HomePage = () => {
                 <Link to='/Lili'>
                     <button>Lili</button>
                 </Link>
-                <Link to='/Andre'>
+                <Link to='/Mariliz'>
                     <button>Mariliz</button>               
                 </Link>
             </div>
